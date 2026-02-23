@@ -1,4 +1,21 @@
-:root{
-    --main-color:#BBBBBB;
-    --base-spacing:16px;
+:root {
+  --main-color: #bbbbbb;
+  --base-spacing: 1px;
+}
+a,
+a:link,
+a:visited{
+    color:black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 8px;
+}
+a:hover{
+    color:#bbbbbb;
+}
+img {
+  width:10%;
+}
+header{
+  display:flex;
 }
