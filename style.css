@@ -27,10 +27,18 @@ header{
   display:flex;
 }
 section.sitetitle{
+  background-color: rgb(212, 211, 211);
   font-size: clamp(2rem,2.5vw,5.0rem)
+}
+section.about{
+  background-color: rgb(212, 211, 211);
+}
+section.contact{
+  background-color: #e9e9e9;
 }
 footer{
   text-align: center;
   background-color:black;
   color:white;
+  font-size: clamp(1rem,1.5vw,1.3rem)
 }
