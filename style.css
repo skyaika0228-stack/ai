@@ -1,6 +1,6 @@
 :root {
   --main-color: #bbbbbb;
-  --base-spacing: 10px;
+  --base-spacing: 5px;
 }
 body {
   text-align: center;
@@ -29,6 +29,9 @@ header{
 section.sitetitle{
   background-color: rgb(212, 211, 211);
   font-size: clamp(2rem,2.5vw,5.0rem)
+}
+section.works.{
+  display: flex;
 }
 section.about{
   background-color: rgb(212, 211, 211);
